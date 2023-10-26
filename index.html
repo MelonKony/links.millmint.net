@@ -7,9 +7,11 @@
     <!-- Favicon -->
     <link rel="icon" href="favicon.png" type="image/x-icon" />
     <!-- Font Awesome icons -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css">
     <!-- Core theme CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Image gallery CSS
+    <link rel="stylesheet" type="text/css" href="css/grid-gallery.css"/>-->
   </head>
 
   <body>
@@ -21,52 +23,48 @@
     </section>
     <!-- End of Parallax Pixel Background Animation -->
 
-    <a id="profilePicture" href="#popup">
-      <img src="profile.png" alt="Profile Picture">
-    </a>
+    <main>
+      <div class="panel">
+      <a id="profilePicture">
+        <img src="profile.png" alt="Profile Picture">
+      </a>
 
-    <div class="overlay" id="popup">
-      <div class="popup">
-        <div class="popup-photo">
-          <a href="profile.png" target="_blank">
-            <img src="profile.png" alt="Profile Picture">
+      <a href="https://millmint.net" class="username">Studio MillMint</a>
+        <div class="bio">I'm a Tasmanian artist who works on <a href="https://millmint.net">Vekllei</a>, a fictional retro-futuristic world that explores life and living in a better 21st Century.</div>
+
+        <div class="bio">You can find my work at the places below:</div>
+
+        <div class="icons">
+          <a class="link" href="https://millmint.net" target="_blank">
+            <i class="fas fa-globe"></i>
+          </a>
+          <a class="link" href="https://twitter.com/vekllei" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a class="link" href="https://www.threads.net/@vekllei" target="_blank">
+            <i class="fab fa-threads"></i>
+          </a>
+          <a class="link" href="https://reddit.com/r/vekllei" target="_blank">
+            <i class="fab fa-reddit"></i>
+          </a>
+          <a class="link" href="https://discord.gg/dCE6vSU" target="_blank">
+              <i class="fab fa-discord"></i>
           </a>
         </div>
-        <div class="popup-quote">
-          Life and living in the last great utopia. I love all sorts of things here on Earth.
-        </div>
-        <a class="popup-close" onclick="history.back()">&times;</a>
       </div>
-    </div>
 
-    <div id="userName">
-      Studio MillMint
-    </div>
-   <!-- <div id="userName" style="font-weight: 450; max-width: 675px; width: auto; display: block; margin: 27px auto;">
-        <p>Hi, I'm Hobart. 
-        <p>I tell stories about life and living in utopia.
-    </div>-->
+      <!--<div class="gg-container">
+        <div class="gg-box">
+          <img src="https://millmint.net/images/fullres/tram.jpg">
+          <img src="https://millmint.net/images/fullres/mackintosh.jpg">
+          <img src="https://millmint.net/images/fullres/futility.jpg">
+          <img src="https://millmint.net/images/fullres/station.jpg">
+          <img src="https://millmint.net/images/fullres/zhi.jpg">
+          <img src="https://millmint.net/images/fullres/sneakers.jpg">
+        </div>
+      </div>-->
+    </main>
 
-    <div id="links">
-      <a class="link" href="https://millmint.net" target="_blank">
-        <i class="fas fa-globe">&nbsp;</i>Project Website
-      </a>
-      <a class="link" href="https://www.reddit.com/r/vekllei/" target="_blank">
-        <i class="fab fa-reddit">&nbsp;</i>Project Reddit
-      </a>
-      <a class="link" href="https://discord.gg/dCE6vSU" target="_blank">
-          <i class="fab fa-discord"></i>&nbsp;</i>Community Discord
-      </a>
-      <a class="link" href="https://www.instagram.com/melon.kony/" target="_blank">
-        <i class="fab fa-instagram">&nbsp;</i>Instagram
-      </a>
-      <a class="link" href="https://twitter.com/MelonKony" target="_blank">
-        <i class="fab fa-twitter">&nbsp;</i>Twitter
-      </a>
-    </div>
-
-    <div id="hashtag">
-      #millmint
-    </div>
+    <!--<script type="text/javascript" src="js/grid-gallery.js"></script>-->
   </body>
 </html>
